@@ -10,12 +10,19 @@ import SwiftUI
 @main
 struct UltimatePortfolioApp: App {
     @StateObject var dataController = DataController()
+    @State private var preferredColumn = NavigationSplitViewColumn.detail
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, dataController.container.viewContext)
-                .environmentObject(dataController)
+            NavigationSplitView(preferredCompactColumn: $preferredColumn) {
+                SidebarView()
+            } content: {
+                ContentView()
+            } detail: {
+                DetailView()
+            }
+            .environment(\.managedObjectContext, dataController.container.viewContext)
+            .environmentObject(dataController)
         }
     }
 }
