@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		656099472C18CE47009A98C6 /* Issue-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656099462C18CE47009A98C6 /* Issue-CoreDataHelpers.swift */; };
+		656099492C1B8B77009A98C6 /* Tag-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656099482C1B8B77009A98C6 /* Tag-CoreDataHelpers.swift */; };
 		65DD7BBD2C179597002631FC /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DD7BBC2C179597002631FC /* SidebarView.swift */; };
 		65DD7BBF2C17959F002631FC /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DD7BBE2C17959F002631FC /* DetailView.swift */; };
 		65DD7BC12C1797FC002631FC /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DD7BC02C1797FC002631FC /* Filter.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		656099462C18CE47009A98C6 /* Issue-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Issue-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		656099482C1B8B77009A98C6 /* Tag-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		65DD7BBC2C179597002631FC /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
 		65DD7BBE2C17959F002631FC /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		65DD7BC02C1797FC002631FC /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
@@ -70,6 +74,8 @@
 				65DD7BBC2C179597002631FC /* SidebarView.swift */,
 				65EF68C52C17301000232A30 /* ContentView.swift */,
 				65DD7BBE2C17959F002631FC /* DetailView.swift */,
+				656099462C18CE47009A98C6 /* Issue-CoreDataHelpers.swift */,
+				656099482C1B8B77009A98C6 /* Tag-CoreDataHelpers.swift */,
 				65EF68D22C173D5B00232A30 /* Main.xcdatamodeld */,
 				65EF68C72C17301100232A30 /* Assets.xcassets */,
 				65EF68C92C17301100232A30 /* UltimatePortfolio.entitlements */,
@@ -157,7 +163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				65DD7BC12C1797FC002631FC /* Filter.swift in Sources */,
+				656099492C1B8B77009A98C6 /* Tag-CoreDataHelpers.swift in Sources */,
 				65EF68D42C173D5B00232A30 /* Main.xcdatamodeld in Sources */,
+				656099472C18CE47009A98C6 /* Issue-CoreDataHelpers.swift in Sources */,
 				65DD7BBF2C17959F002631FC /* DetailView.swift in Sources */,
 				65EF68D62C17491B00232A30 /* DataController.swift in Sources */,
 				65DD7BBD2C179597002631FC /* SidebarView.swift in Sources */,
