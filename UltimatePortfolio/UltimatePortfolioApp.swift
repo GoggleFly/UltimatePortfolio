@@ -11,6 +11,7 @@ import SwiftUI
 struct UltimatePortfolioApp: App {
     @StateObject var dataController = DataController()
     @State private var preferredColumn = NavigationSplitViewColumn.detail
+    @Environment(\.scenePhase) var scenePhase
     
     var body: some Scene {
         WindowGroup {
@@ -23,6 +24,11 @@ struct UltimatePortfolioApp: App {
             }
             .environment(\.managedObjectContext, dataController.container.viewContext)
             .environmentObject(dataController)
+            .onChange(of: scenePhase) { _, newPhase in
+                if newPhase != .active {
+                    dataController.save()
+                }
+            }
         }
     }
 }
