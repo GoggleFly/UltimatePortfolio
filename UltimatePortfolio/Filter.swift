@@ -14,6 +14,10 @@ struct Filter: Identifiable, Hashable {
     var minimumModificationDate = Date.distantPast
     var tag: Tag?
     
+    var activeIssuesCount: Int {
+        tag?.tagActiveIssues.count ?? 0
+    }
+    
     static var all = Filter(
         id: UUID(),
         name: "All issues",
