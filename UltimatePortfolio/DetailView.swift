@@ -19,7 +19,7 @@ extension View {
 
 struct DetailView: View {
     @EnvironmentObject var dataController: DataController
-    
+
     var body: some View {
         VStack {
             if let issue = dataController.selectedIssue {

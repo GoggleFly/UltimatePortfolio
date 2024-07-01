@@ -12,7 +12,7 @@ struct UltimatePortfolioApp: App {
     @StateObject var dataController = DataController()
     @State private var preferredColumn = NavigationSplitViewColumn.content
     @Environment(\.scenePhase) var scenePhase
-    
+
     var body: some Scene {
         WindowGroup {
             NavigationSplitView(preferredCompactColumn: $preferredColumn) {
