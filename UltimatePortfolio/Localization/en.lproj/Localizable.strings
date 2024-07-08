@@ -51,6 +51,8 @@
 "Open" = "Open";
 "Closed" = "Closed";
 
+"No tags" = "No tags";
+
 "Low" = "Low";
 "Medium" = "Medium";
 "High" = "High";
@@ -99,6 +101,8 @@
 /***************/
 "Awards" = "Awards";
 
+"Locked" = "Locked";
+"Unlocked: %@" = "Unlocked: %@";
 
 /********/
 /* DATA */

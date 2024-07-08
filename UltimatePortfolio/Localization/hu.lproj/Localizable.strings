@@ -51,6 +51,8 @@
 "Open" = "Nyitott";
 "Closed" = "Lezárt";
 
+"No tags" = "Címkétlen";
+
 "Low" = "Alacsony";
 "Medium" = "Közepes";
 "High" = "Magas";
@@ -98,6 +100,9 @@
 /* AWARDS VIEW */
 /***************/
 "Awards" = "Díjak";
+
+"Locked" = "Zárolt";
+"Unlocked: %@" = "Feloldott %@";
 
 
 /********/
