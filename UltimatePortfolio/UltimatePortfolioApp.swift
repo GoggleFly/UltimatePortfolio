@@ -18,7 +18,7 @@ struct UltimatePortfolioApp: App {
             NavigationSplitView(preferredCompactColumn: $preferredColumn) {
                 SidebarView(dataController: dataController)
             } content: {
-                ContentView()
+                ContentView(dataController: dataController)
             } detail: {
                 DetailView()
             }

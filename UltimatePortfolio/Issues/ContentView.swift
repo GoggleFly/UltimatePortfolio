@@ -8,27 +8,32 @@
 import SwiftUI
 
 struct ContentView: View {
-    @EnvironmentObject var dataController: DataController
+    @StateObject var viewModel: ViewModel
+
+    init(dataController: DataController) {
+        let viewModel = ViewModel(dataController: dataController)
+        _viewModel = StateObject(wrappedValue: viewModel)
+    }
 
     var body: some View {
-        List(selection: $dataController.selectedIssue) {
-            ForEach(dataController.issuesForSelectedFilter()) { issue in
+        List(selection: $viewModel.selectedIssue) {
+            ForEach(viewModel.dataController.issuesForSelectedFilter()) { issue in
                 IssueRow(issue: issue)
             }
-            .onDelete(perform: delete)
+            .onDelete(perform: viewModel.delete)
         }
         .navigationTitle("Issues")
         .searchable(
-            text: $dataController.filterText,
-            tokens: $dataController.filterTokens,
+            text: $viewModel.filterText,
+            tokens: $viewModel.filterTokens,
             prompt: "Filter issues, or type # to add tags") { tag in
                 Text(tag.tagName)
             }
             .searchSuggestions {
-                ForEach(dataController.suggestedFilterTokens) { tag in
+                ForEach(viewModel.suggestedFilterTokens) { tag in
                     Button(tag.tagName) {
-                        dataController.filterTokens.append(tag)
-                        dataController.filterText = ""
+                        viewModel.filterTokens.append(tag)
+                        viewModel.filterText = ""
                     }
                 }
             }
@@ -36,18 +41,8 @@ struct ContentView: View {
                 ContentViewToolbar()
             }
     }
-
-    func delete(_ offsets: IndexSet) {
-        let issues = dataController.issuesForSelectedFilter()
-
-        for offset in offsets {
-            let item = issues[offset]
-            dataController.delete(item)
-        }
-    }
 }
 
 #Preview {
-    ContentView()
-        .environmentObject(DataController.preview)
+    ContentView(dataController: DataController.preview)
 }
