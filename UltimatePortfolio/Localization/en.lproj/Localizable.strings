@@ -86,6 +86,14 @@
 "Close Issue" = "Close Issue";
 "Reopen Issue" = "Reopen Issue";
 
+/* Reminders */
+"Reminders" = "Reminders";
+"Show reminders" = "Show reminders";
+"Oops!" = "Oops!";
+"There was a problem setting your notification. Please check you have notifications enabled." = "There was a problem setting your notification. Please check you have notifications enabled.";
+"Check Settings" = "Check Settings";
+"Reminder time" = "Reminder time";
+
 /* Fields that let the users enter details about a specific issue */
 "Enter the issue title here" = "Enter the issue title here";
 "**Modified:** %@" = "**Modified:** %@";
