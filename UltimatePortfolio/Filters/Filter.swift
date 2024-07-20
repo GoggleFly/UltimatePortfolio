@@ -23,6 +23,7 @@ struct Filter: Identifiable, Hashable {
         name: "All Issues",
         icon: "tray"
     )
+
     static var recent = Filter(
         id: UUID(),
         name: "Recent Issues",

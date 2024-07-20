@@ -22,6 +22,12 @@ struct ContentView: View {
         }
     }
 
+    func openURL(_ url: URL) {
+        if url.absoluteString.contains("newIssue") {
+            viewModel.dataController.newIssue()
+        }
+    }
+
     var body: some View {
         List(selection: $viewModel.selectedIssue) {
             ForEach(viewModel.dataController.issuesForSelectedFilter()) { issue in
@@ -46,6 +52,7 @@ struct ContentView: View {
             }
             .toolbar(content: ContentViewToolbar.init)
             .onAppear(perform: askForReview)
+            .onOpenURL(perform: openURL)
     }
 }
 

@@ -28,6 +28,8 @@
 		65A344A72C43B68900E52D8D /* DataController-Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A344A62C43B68900E52D8D /* DataController-Notifications.swift */; };
 		65A344AA2C45841200E52D8D /* DataController-StoreKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A344A92C45841200E52D8D /* DataController-StoreKit.swift */; };
 		65A344AD2C45911700E52D8D /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A344AC2C45911700E52D8D /* StoreView.swift */; };
+		65A344AF2C4C662C00E52D8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A344AE2C4C662C00E52D8D /* AppDelegate.swift */; };
+		65A344B12C4C663200E52D8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A344B02C4C663200E52D8D /* SceneDelegate.swift */; };
 		65B8F3692C372EA600E28252 /* UltimatePortfolioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B8F3682C372EA600E28252 /* UltimatePortfolioTests.swift */; };
 		65B8F3702C38447100E28252 /* AssetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B8F36F2C38447100E28252 /* AssetTests.swift */; };
 		65B8F3722C38758700E28252 /* TagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B8F3712C38758700E28252 /* TagTests.swift */; };
@@ -96,6 +98,8 @@
 		65A344A82C45826B00E52D8D /* StoreConfiguration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoreConfiguration.storekit; sourceTree = "<group>"; };
 		65A344A92C45841200E52D8D /* DataController-StoreKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataController-StoreKit.swift"; sourceTree = "<group>"; };
 		65A344AC2C45911700E52D8D /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
+		65A344AE2C4C662C00E52D8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65A344B02C4C663200E52D8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		65B8F3662C372EA600E28252 /* UltimatePortfolioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltimatePortfolioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B8F3682C372EA600E28252 /* UltimatePortfolioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioTests.swift; sourceTree = "<group>"; };
 		65B8F36F2C38447100E28252 /* AssetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetTests.swift; sourceTree = "<group>"; };
@@ -302,6 +306,8 @@
 				65B8F3612C349DE900E28252 /* Configuration */,
 				65EF68C32C17301000232A30 /* UltimatePortfolioApp.swift */,
 				65EF68D52C17491B00232A30 /* DataController.swift */,
+				65A344AE2C4C662C00E52D8D /* AppDelegate.swift */,
+				65A344B02C4C663200E52D8D /* SceneDelegate.swift */,
 				65A344A62C43B68900E52D8D /* DataController-Notifications.swift */,
 				65A344A92C45841200E52D8D /* DataController-StoreKit.swift */,
 				654250D72C2CA75700E74974 /* Colors.xcassets */,
@@ -506,6 +512,7 @@
 				659495DD2C33156700B31BDA /* TagsMenuView.swift in Sources */,
 				654250DB2C2CA7EC00E74974 /* Award.swift in Sources */,
 				659495D92C33137A00B31BDA /* IssueViewToolbar.swift in Sources */,
+				65A344AF2C4C662C00E52D8D /* AppDelegate.swift in Sources */,
 				659495DF2C33164C00B31BDA /* SmartFilterRow.swift in Sources */,
 				654250DD2C2CA89700E74974 /* AwardsView.swift in Sources */,
 				65A344AA2C45841200E52D8D /* DataController-StoreKit.swift in Sources */,
@@ -513,6 +520,7 @@
 				656099492C1B8B77009A98C6 /* Tag-CoreDataHelpers.swift in Sources */,
 				65EF68D42C173D5B00232A30 /* Main.xcdatamodeld in Sources */,
 				656099472C18CE47009A98C6 /* Issue-CoreDataHelpers.swift in Sources */,
+				65A344B12C4C663200E52D8D /* SceneDelegate.swift in Sources */,
 				654250D52C2CA32800E74974 /* Bundle-Decodable.swift in Sources */,
 				65DD7BBF2C17959F002631FC /* DetailView.swift in Sources */,
 				65D21FAC2C3C367A00EEB836 /* SidebarViewModel.swift in Sources */,
