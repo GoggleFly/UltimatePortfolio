@@ -11,21 +11,11 @@ struct ContentView: View {
     @Environment(\.requestReview) var requestReview
     @StateObject var viewModel: ViewModel
 
+    private let newIssueActivity = "uk.co.ottid.ultimateportfolio.newIssue"
+
     init(dataController: DataController) {
         let viewModel = ViewModel(dataController: dataController)
         _viewModel = StateObject(wrappedValue: viewModel)
-    }
-
-    func askForReview() {
-        if viewModel.shouldRequestReview {
-            requestReview()
-        }
-    }
-
-    func openURL(_ url: URL) {
-        if url.absoluteString.contains("newIssue") {
-            viewModel.dataController.newIssue()
-        }
     }
 
     var body: some View {
@@ -53,6 +43,27 @@ struct ContentView: View {
             .toolbar(content: ContentViewToolbar.init)
             .onAppear(perform: askForReview)
             .onOpenURL(perform: openURL)
+            .userActivity(newIssueActivity) { activity in
+                activity.isEligibleForPrediction = true
+                activity.title = "New Issue"
+            }
+            .onContinueUserActivity(newIssueActivity, perform: resumeActivity)
+    }
+
+    func askForReview() {
+        if viewModel.shouldRequestReview {
+            requestReview()
+        }
+    }
+
+    func openURL(_ url: URL) {
+        if url.absoluteString.contains("newIssue") {
+            viewModel.dataController.newIssue()
+        }
+    }
+
+    func resumeActivity(_ userActivity: NSUserActivity) {
+        viewModel.dataController.newIssue()
     }
 }
 
