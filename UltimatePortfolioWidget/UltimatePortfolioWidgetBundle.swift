@@ -11,6 +11,7 @@ import SwiftUI
 @main
 struct UltimatePortfolioWidgetBundle: WidgetBundle {
     var body: some Widget {
-        UltimatePortfolioWidget()
+        SimplePortfolioWidget()
+        ComplexPortfolioWidget()
     }
 }
