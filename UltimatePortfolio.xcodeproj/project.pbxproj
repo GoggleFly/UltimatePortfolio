@@ -72,6 +72,48 @@
 		65B8F37F2C3B01F400E28252 /* PerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B8F37E2C3B01F400E28252 /* PerformanceTests.swift */; };
 		65B8F3872C3B06FA00E28252 /* UltimatePortfolioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B8F3862C3B06FA00E28252 /* UltimatePortfolioUITests.swift */; };
 		65B8F3892C3B06FA00E28252 /* UltimatePortfolioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B8F3882C3B06FA00E28252 /* UltimatePortfolioUITestsLaunchTests.swift */; };
+		65C4AE572C4F03FE0014FB1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C4AE562C4F03FE0014FB1C /* Assets.xcassets */; };
+		65C4AE5A2C4F03FE0014FB1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C4AE592C4F03FE0014FB1C /* Preview Assets.xcassets */; };
+		65C4AE5D2C4F03FE0014FB1C /* UltimatePortfolioWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 65C4AE502C4F03FA0014FB1C /* UltimatePortfolioWatch Watch App.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		65C4AE622C4F04720014FB1C /* Tag-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656099482C1B8B77009A98C6 /* Tag-CoreDataHelpers.swift */; };
+		65C4AE632C4F04720014FB1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EF68C52C17301000232A30 /* ContentView.swift */; };
+		65C4AE642C4F04720014FB1C /* SidebarViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659495D62C33120F00B31BDA /* SidebarViewToolbar.swift */; };
+		65C4AE652C4F04720014FB1C /* DataController-Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A344A62C43B68900E52D8D /* DataController-Notifications.swift */; };
+		65C4AE662C4F04720014FB1C /* TagsMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659495DC2C33156700B31BDA /* TagsMenuView.swift */; };
+		65C4AE672C4F04720014FB1C /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654250DA2C2CA7EC00E74974 /* Award.swift */; };
+		65C4AE682C4F04720014FB1C /* SmartFilterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659495DE2C33164C00B31BDA /* SmartFilterRow.swift */; };
+		65C4AE692C4F04720014FB1C /* IssueViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659495D82C33137A00B31BDA /* IssueViewToolbar.swift */; };
+		65C4AE6A2C4F04720014FB1C /* IssueRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6560994A2C1B94A4009A98C6 /* IssueRow.swift */; };
+		65C4AE6B2C4F04720014FB1C /* InlineNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656ACD6C2C4EDD6A0072D9B1 /* InlineNavigationBar.swift */; };
+		65C4AE6C2C4F04720014FB1C /* NoIssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654250D22C2092B900E74974 /* NoIssueView.swift */; };
+		65C4AE6D2C4F04720014FB1C /* IssueRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D21FAF2C3C3EB700EEB836 /* IssueRowViewModel.swift */; };
+		65C4AE6E2C4F04720014FB1C /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654250D42C2CA32800E74974 /* Bundle-Decodable.swift */; };
+		65C4AE6F2C4F04720014FB1C /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A344AC2C45911700E52D8D /* StoreView.swift */; };
+		65C4AE702C4F04720014FB1C /* MacFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656ACD902C4EFF4A0072D9B1 /* MacFrame.swift */; };
+		65C4AE712C4F04720014FB1C /* ContentViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659495DA2C33140100B31BDA /* ContentViewToolbar.swift */; };
+		65C4AE722C4F04720014FB1C /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DD7BBC2C179597002631FC /* SidebarView.swift */; };
+		65C4AE732C4F04720014FB1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A344AE2C4C662C00E52D8D /* AppDelegate.swift */; };
+		65C4AE742C4F04720014FB1C /* UltimatePortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EF68C32C17301000232A30 /* UltimatePortfolioApp.swift */; };
+		65C4AE752C4F04720014FB1C /* UserFilterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659495E02C3316AE00B31BDA /* UserFilterRow.swift */; };
+		65C4AE762C4F04720014FB1C /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DD7BC02C1797FC002631FC /* Filter.swift */; };
+		65C4AE772C4F04720014FB1C /* SidebarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D21FAB2C3C367A00EEB836 /* SidebarViewModel.swift */; };
+		65C4AE782C4F04720014FB1C /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EF68D52C17491B00232A30 /* DataController.swift */; };
+		65C4AE792C4F04720014FB1C /* IssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654250D02C2092B300E74974 /* IssueView.swift */; };
+		65C4AE7A2C4F04720014FB1C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DD7BBE2C17959F002631FC /* DetailView.swift */; };
+		65C4AE7B2C4F04720014FB1C /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654250DC2C2CA89700E74974 /* AwardsView.swift */; };
+		65C4AE7C2C4F04720014FB1C /* DataController-StoreKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A344A92C45841200E52D8D /* DataController-StoreKit.swift */; };
+		65C4AE7D2C4F04720014FB1C /* DataController-Awards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A344D32C4D137200E52D8D /* DataController-Awards.swift */; };
+		65C4AE7E2C4F04720014FB1C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A344B02C4C663200E52D8D /* SceneDelegate.swift */; };
+		65C4AE7F2C4F04720014FB1C /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D21FAD2C3C3DCB00EEB836 /* ContentViewModel.swift */; };
+		65C4AE802C4F04720014FB1C /* Issue-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656099462C18CE47009A98C6 /* Issue-CoreDataHelpers.swift */; };
+		65C4AE812C4F04800014FB1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65EF68C72C17301100232A30 /* Assets.xcassets */; };
+		65C4AE822C4F04800014FB1C /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654250D72C2CA75700E74974 /* Colors.xcassets */; };
+		65C4AE832C4F04860014FB1C /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65EF68D22C173D5B00232A30 /* Main.xcdatamodeld */; };
+		65C4AE842C4F04920014FB1C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 659495CA2C3301FB00B31BDA /* Localizable.strings */; };
+		65C4AE852C4F04950014FB1C /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 659495CD2C33064A00B31BDA /* Localizable.stringsdict */; };
+		65C4AE862C4F04980014FB1C /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = 659495D32C330FBF00B31BDA /* Awards.json */; };
+		65C4AE882C4F06F70014FB1C /* NumberBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C4AE872C4F06F70014FB1C /* NumberBadge.swift */; };
+		65C4AE892C4F07390014FB1C /* NumberBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C4AE872C4F06F70014FB1C /* NumberBadge.swift */; };
 		65D21FAC2C3C367A00EEB836 /* SidebarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D21FAB2C3C367A00EEB836 /* SidebarViewModel.swift */; };
 		65D21FAE2C3C3DCB00EEB836 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D21FAD2C3C3DCB00EEB836 /* ContentViewModel.swift */; };
 		65D21FB02C3C3EB700EEB836 /* IssueRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D21FAF2C3C3EB700EEB836 /* IssueRowViewModel.swift */; };
@@ -115,6 +157,13 @@
 			remoteGlobalIDString = 65EF68BF2C17301000232A30;
 			remoteInfo = UltimatePortfolio;
 		};
+		65C4AE5B2C4F03FE0014FB1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65EF68B82C17301000232A30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65C4AE4F2C4F03FA0014FB1C;
+			remoteInfo = "UltimatePortfolioWatch Watch App";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -128,6 +177,17 @@
 				65A344C62C4D115F00E52D8D /* UltimatePortfolioWidgetExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C4AE5E2C4F03FE0014FB1C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				65C4AE5D2C4F03FE0014FB1C /* UltimatePortfolioWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -190,6 +250,11 @@
 		65B8F3842C3B06FA00E28252 /* UltimatePortfolioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltimatePortfolioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B8F3862C3B06FA00E28252 /* UltimatePortfolioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioUITests.swift; sourceTree = "<group>"; };
 		65B8F3882C3B06FA00E28252 /* UltimatePortfolioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		65C4AE502C4F03FA0014FB1C /* UltimatePortfolioWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UltimatePortfolioWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C4AE562C4F03FE0014FB1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65C4AE592C4F03FE0014FB1C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		65C4AE872C4F06F70014FB1C /* NumberBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberBadge.swift; sourceTree = "<group>"; };
+		65C4AE8A2C4F08DA0014FB1C /* UltimatePortfolioWatch Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "UltimatePortfolioWatch Watch App.entitlements"; sourceTree = "<group>"; };
 		65D21FAB2C3C367A00EEB836 /* SidebarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarViewModel.swift; sourceTree = "<group>"; };
 		65D21FAD2C3C3DCB00EEB836 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		65D21FAF2C3C3EB700EEB836 /* IssueRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueRowViewModel.swift; sourceTree = "<group>"; };
@@ -240,6 +305,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		65C4AE4D2C4F03FA0014FB1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65EF68BD2C17301000232A30 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -255,7 +327,7 @@
 			children = (
 				656ACD6C2C4EDD6A0072D9B1 /* InlineNavigationBar.swift */,
 				656ACD902C4EFF4A0072D9B1 /* MacFrame.swift */,
-				656ACD922C4F02100072D9B1 /* Credits.rtf */,
+				65C4AE872C4F06F70014FB1C /* NumberBadge.swift */,
 			);
 			path = PlatformAdjustments;
 			sourceTree = "<group>";
@@ -409,6 +481,24 @@
 			path = UltimatePortfolioUITests;
 			sourceTree = "<group>";
 		};
+		65C4AE512C4F03FA0014FB1C /* UltimatePortfolioWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				65C4AE8A2C4F08DA0014FB1C /* UltimatePortfolioWatch Watch App.entitlements */,
+				65C4AE562C4F03FE0014FB1C /* Assets.xcassets */,
+				65C4AE582C4F03FE0014FB1C /* Preview Content */,
+			);
+			path = "UltimatePortfolioWatch Watch App";
+			sourceTree = "<group>";
+		};
+		65C4AE582C4F03FE0014FB1C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				65C4AE592C4F03FE0014FB1C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		65EF68B72C17301000232A30 = {
 			isa = PBXGroup;
 			children = (
@@ -418,6 +508,7 @@
 				65B8F3852C3B06FA00E28252 /* UltimatePortfolioUITests */,
 				65A344BC2C4D115D00E52D8D /* UltimatePortfolioWidget */,
 				656ACD752C4EE3070072D9B1 /* UltimatePortfolioWidgetMac */,
+				65C4AE512C4F03FA0014FB1C /* UltimatePortfolioWatch Watch App */,
 				65A344B72C4D115D00E52D8D /* Frameworks */,
 				65EF68C12C17301000232A30 /* Products */,
 			);
@@ -431,6 +522,7 @@
 				65B8F3842C3B06FA00E28252 /* UltimatePortfolioUITests.xctest */,
 				65A344B62C4D115D00E52D8D /* UltimatePortfolioWidgetExtension.appex */,
 				656ACD722C4EE3070072D9B1 /* UltimatePortfolioWidgetMacExtension.appex */,
+				65C4AE502C4F03FA0014FB1C /* UltimatePortfolioWatch Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -454,6 +546,7 @@
 				65A344D32C4D137200E52D8D /* DataController-Awards.swift */,
 				65A344A62C43B68900E52D8D /* DataController-Notifications.swift */,
 				65A344A92C45841200E52D8D /* DataController-StoreKit.swift */,
+				656ACD922C4F02100072D9B1 /* Credits.rtf */,
 				654250D72C2CA75700E74974 /* Colors.xcassets */,
 				65EF68C72C17301100232A30 /* Assets.xcassets */,
 				65EF68CA2C17301100232A30 /* Preview Content */,
@@ -542,6 +635,23 @@
 			productReference = 65B8F3842C3B06FA00E28252 /* UltimatePortfolioUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		65C4AE4F2C4F03FA0014FB1C /* UltimatePortfolioWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65C4AE612C4F03FE0014FB1C /* Build configuration list for PBXNativeTarget "UltimatePortfolioWatch Watch App" */;
+			buildPhases = (
+				65C4AE4C2C4F03FA0014FB1C /* Sources */,
+				65C4AE4D2C4F03FA0014FB1C /* Frameworks */,
+				65C4AE4E2C4F03FA0014FB1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UltimatePortfolioWatch Watch App";
+			productName = "UltimatePortfolioWatch Watch App";
+			productReference = 65C4AE502C4F03FA0014FB1C /* UltimatePortfolioWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
 		65EF68BF2C17301000232A30 /* UltimatePortfolio */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65EF68CF2C17301100232A30 /* Build configuration list for PBXNativeTarget "UltimatePortfolio" */;
@@ -551,12 +661,14 @@
 				65EF68BE2C17301000232A30 /* Resources */,
 				659495E22C334FCD00B31BDA /* SwiftLint */,
 				65A344CA2C4D115F00E52D8D /* Embed Foundation Extensions */,
+				65C4AE5E2C4F03FE0014FB1C /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				65A344C52C4D115F00E52D8D /* PBXTargetDependency */,
 				656ACD8F2C4EE49F0072D9B1 /* PBXTargetDependency */,
+				65C4AE5C2C4F03FE0014FB1C /* PBXTargetDependency */,
 			);
 			name = UltimatePortfolio;
 			productName = UltimatePortfolio;
@@ -587,6 +699,9 @@
 						CreatedOnToolsVersion = 15.4;
 						TestTargetID = 65EF68BF2C17301000232A30;
 					};
+					65C4AE4F2C4F03FA0014FB1C = {
+						CreatedOnToolsVersion = 15.4;
+					};
 					65EF68BF2C17301000232A30 = {
 						CreatedOnToolsVersion = 15.4;
 					};
@@ -611,6 +726,7 @@
 				65B8F3832C3B06FA00E28252 /* UltimatePortfolioUITests */,
 				65A344B52C4D115D00E52D8D /* UltimatePortfolioWidgetExtension */,
 				656ACD712C4EE3070072D9B1 /* UltimatePortfolioWidgetMacExtension */,
+				65C4AE4F2C4F03FA0014FB1C /* UltimatePortfolioWatch Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -646,6 +762,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C4AE4E2C4F03FA0014FB1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C4AE842C4F04920014FB1C /* Localizable.strings in Resources */,
+				65C4AE862C4F04980014FB1C /* Awards.json in Resources */,
+				65C4AE5A2C4F03FE0014FB1C /* Preview Assets.xcassets in Resources */,
+				65C4AE812C4F04800014FB1C /* Assets.xcassets in Resources */,
+				65C4AE822C4F04800014FB1C /* Colors.xcassets in Resources */,
+				65C4AE572C4F03FE0014FB1C /* Assets.xcassets in Resources */,
+				65C4AE852C4F04950014FB1C /* Localizable.stringsdict in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -743,6 +873,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		65C4AE4C2C4F03FA0014FB1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C4AE622C4F04720014FB1C /* Tag-CoreDataHelpers.swift in Sources */,
+				65C4AE632C4F04720014FB1C /* ContentView.swift in Sources */,
+				65C4AE642C4F04720014FB1C /* SidebarViewToolbar.swift in Sources */,
+				65C4AE652C4F04720014FB1C /* DataController-Notifications.swift in Sources */,
+				65C4AE662C4F04720014FB1C /* TagsMenuView.swift in Sources */,
+				65C4AE672C4F04720014FB1C /* Award.swift in Sources */,
+				65C4AE682C4F04720014FB1C /* SmartFilterRow.swift in Sources */,
+				65C4AE692C4F04720014FB1C /* IssueViewToolbar.swift in Sources */,
+				65C4AE6A2C4F04720014FB1C /* IssueRow.swift in Sources */,
+				65C4AE6B2C4F04720014FB1C /* InlineNavigationBar.swift in Sources */,
+				65C4AE892C4F07390014FB1C /* NumberBadge.swift in Sources */,
+				65C4AE6C2C4F04720014FB1C /* NoIssueView.swift in Sources */,
+				65C4AE6D2C4F04720014FB1C /* IssueRowViewModel.swift in Sources */,
+				65C4AE6E2C4F04720014FB1C /* Bundle-Decodable.swift in Sources */,
+				65C4AE6F2C4F04720014FB1C /* StoreView.swift in Sources */,
+				65C4AE832C4F04860014FB1C /* Main.xcdatamodeld in Sources */,
+				65C4AE702C4F04720014FB1C /* MacFrame.swift in Sources */,
+				65C4AE712C4F04720014FB1C /* ContentViewToolbar.swift in Sources */,
+				65C4AE722C4F04720014FB1C /* SidebarView.swift in Sources */,
+				65C4AE732C4F04720014FB1C /* AppDelegate.swift in Sources */,
+				65C4AE742C4F04720014FB1C /* UltimatePortfolioApp.swift in Sources */,
+				65C4AE752C4F04720014FB1C /* UserFilterRow.swift in Sources */,
+				65C4AE762C4F04720014FB1C /* Filter.swift in Sources */,
+				65C4AE772C4F04720014FB1C /* SidebarViewModel.swift in Sources */,
+				65C4AE782C4F04720014FB1C /* DataController.swift in Sources */,
+				65C4AE792C4F04720014FB1C /* IssueView.swift in Sources */,
+				65C4AE7A2C4F04720014FB1C /* DetailView.swift in Sources */,
+				65C4AE7B2C4F04720014FB1C /* AwardsView.swift in Sources */,
+				65C4AE7C2C4F04720014FB1C /* DataController-StoreKit.swift in Sources */,
+				65C4AE7D2C4F04720014FB1C /* DataController-Awards.swift in Sources */,
+				65C4AE7E2C4F04720014FB1C /* SceneDelegate.swift in Sources */,
+				65C4AE7F2C4F04720014FB1C /* ContentViewModel.swift in Sources */,
+				65C4AE802C4F04720014FB1C /* Issue-CoreDataHelpers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65EF68BC2C17301000232A30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -757,6 +927,7 @@
 				654250DD2C2CA89700E74974 /* AwardsView.swift in Sources */,
 				65A344AA2C45841200E52D8D /* DataController-StoreKit.swift in Sources */,
 				65A344A72C43B68900E52D8D /* DataController-Notifications.swift in Sources */,
+				65C4AE882C4F06F70014FB1C /* NumberBadge.swift in Sources */,
 				656099492C1B8B77009A98C6 /* Tag-CoreDataHelpers.swift in Sources */,
 				65EF68D42C173D5B00232A30 /* Main.xcdatamodeld in Sources */,
 				656099472C18CE47009A98C6 /* Issue-CoreDataHelpers.swift in Sources */,
@@ -809,6 +980,12 @@
 			platformFilter = ios;
 			target = 65EF68BF2C17301000232A30 /* UltimatePortfolio */;
 			targetProxy = 65B8F38A2C3B06FA00E28252 /* PBXContainerItemProxy */;
+		};
+		65C4AE5C2C4F03FE0014FB1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = 65C4AE4F2C4F03FA0014FB1C /* UltimatePortfolioWatch Watch App */;
+			targetProxy = 65C4AE5B2C4F03FE0014FB1C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1058,6 +1235,73 @@
 			};
 			name = Release;
 		};
+		65C4AE5F2C4F03FE0014FB1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "UltimatePortfolioWatch Watch App/UltimatePortfolioWatch Watch App.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UltimatePortfolioWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 9N39247EUQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = UltimatePortfolioWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = uk.co.ottid.UltimatePortfolio;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.ottid.UltimatePortfolio.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		65C4AE602C4F03FE0014FB1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "UltimatePortfolioWatch Watch App/UltimatePortfolioWatch Watch App.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UltimatePortfolioWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 9N39247EUQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = UltimatePortfolioWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = uk.co.ottid.UltimatePortfolio;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.ottid.UltimatePortfolio.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
 		65EF68CD2C17301100232A30 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1295,6 +1539,15 @@
 			buildConfigurations = (
 				65B8F38D2C3B06FA00E28252 /* Debug */,
 				65B8F38E2C3B06FA00E28252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65C4AE612C4F03FE0014FB1C /* Build configuration list for PBXNativeTarget "UltimatePortfolioWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65C4AE5F2C4F03FE0014FB1C /* Debug */,
+				65C4AE602C4F03FE0014FB1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

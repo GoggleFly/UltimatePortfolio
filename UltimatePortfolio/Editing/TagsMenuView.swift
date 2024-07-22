@@ -12,6 +12,7 @@ struct TagsMenuView: View {
     @ObservedObject var issue: Issue
 
     var body: some View {
+        #if !os(watchOS)
         Menu {
             // show selected tags first
             ForEach(issue.issueTags) { tag in
@@ -42,6 +43,7 @@ struct TagsMenuView: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .animation(nil, value: issue.issueTagsList)
         }
+        #endif
     }
 }
 

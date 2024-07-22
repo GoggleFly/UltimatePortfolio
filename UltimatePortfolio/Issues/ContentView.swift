@@ -8,7 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    #if !os(watchOS)
     @Environment(\.requestReview) var requestReview
+    #endif
+
     @StateObject var viewModel: ViewModel
 
     private let newIssueActivity = "uk.co.ottid.ultimateportfolio.newIssue"
@@ -27,6 +30,7 @@ struct ContentView: View {
         }
         .macFrame(minWidth: 220)
         .navigationTitle("Issues")
+        #if !os(watchOS)
         .searchable(
             text: $viewModel.filterText,
             tokens: $viewModel.filterTokens,
@@ -41,6 +45,7 @@ struct ContentView: View {
                     }
                 }
             }
+        #endif
             .toolbar(content: ContentViewToolbar.init)
             .onAppear(perform: askForReview)
             .onOpenURL(perform: viewModel.openURL)
@@ -54,9 +59,11 @@ struct ContentView: View {
     }
 
     func askForReview() {
+        #if !os(watchOS)
         if viewModel.shouldRequestReview {
             requestReview()
         }
+        #endif
     }
 
     func resumeActivity(_ userActivity: NSUserActivity) {
