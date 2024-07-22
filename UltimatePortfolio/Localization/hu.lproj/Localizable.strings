@@ -44,9 +44,11 @@
 "Sort By" = "Rendezés"; /* Adjust the order issues are shown */
 "Date Created" = "Létrehozás dátuma"; /* Sort issues by the date they were created */
 "Date Modified" = "Módosítás dátuma"; /* Sort issues by the date they were last changed */
+"Sort Order" = "Rendezési sorrend";
 "Newest to Oldest" = "Legújabbtól a legrégebbig"; /* Place newer issues before older issues */
 "Oldest to Newest" = "Legrégebbitől a legújabbig"; /* Place older issues before newer issues */
 
+"Status" = "Állapot";
 "All" = "Összes";
 "Open" = "Nyitott";
 "Closed" = "Lezárt";
@@ -95,6 +97,8 @@
 "Reminder time" = "Emlékeztető ideje";
 
 /* Fields that let the users enter details about a specific issue */
+"Title" = "Cím";
+"Description" = "Leírás";
 "Enter the issue title here" = "Írja be a probléma címét ide";
 "**Modified:** %@" = "**Módosítva:** %@";
 "**Status:** %@" = "**Állapot:** %@";
@@ -108,7 +112,7 @@
 /* AWARDS VIEW */
 /***************/
 "Awards" = "Díjak";
-
+"Close" = "Bezár";
 "Locked" = "Zárolt";
 "Unlocked: %@" = "Feloldott %@";
 

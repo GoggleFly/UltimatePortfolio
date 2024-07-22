@@ -22,6 +22,7 @@ struct IssueView: View {
                               text: $issue.issueTitle,
                               prompt: Text("Enter the issue title here"))
                         .font(.title)
+                        .labelsHidden()
 
                     Text("**Modified:** \(issue.issueModificationDate.formatted(date: .long, time: .shortened))")
                         .foregroundStyle(.secondary)
@@ -38,16 +39,14 @@ struct IssueView: View {
                 TagsMenuView(issue: issue)
             }
 
-            Section {
+            Section("Basic Information") {
                 VStack(alignment: .leading) {
-                    Text("Basic Information")
-                        .font(.title2)
-                        .foregroundStyle(.secondary)
-
                     TextField("Description",
                               text: $issue.issueContent,
                               prompt: Text("Enter the issue description here"),
-                              axis: .vertical)
+                              axis: .vertical
+                    )
+                    .labelsHidden()
                 }
             }
 
@@ -63,6 +62,7 @@ struct IssueView: View {
                 }
             }
         }
+        .formStyle(.grouped)
         .disabled(issue.isDeleted)
         .onReceive(issue.objectWillChange) { _ in
             dataController.queueSave()
@@ -72,7 +72,13 @@ struct IssueView: View {
             IssueViewToolbar(issue: issue)
         }
         .alert("Oops!", isPresented: $showingNotificationsError) {
+            #if os(macOS)
+            SettingsLink {
+                Text("Check Settings")
+            }
+            #else
             Button("Check Settings", action: showAppSettings)
+            #endif
             Button("Cancel", role: .cancel) { }
         } message: {
             Text("There was a problem setting your notification. Please check you have notifications enabled.")
@@ -85,6 +91,7 @@ struct IssueView: View {
         }
     }
 
+    #if os(iOS)
     func showAppSettings() {
         guard let settingsURL = URL(string: UIApplication.openNotificationSettingsURLString) else {
             return
@@ -92,6 +99,7 @@ struct IssueView: View {
 
         openURL(settingsURL)
     }
+    #endif
 
     func updateReminder() {
         dataController.removeReminders(for: issue)

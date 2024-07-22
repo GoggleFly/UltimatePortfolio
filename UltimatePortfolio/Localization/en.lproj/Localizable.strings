@@ -44,9 +44,11 @@
 "Sort By" = "Sort By"; /* Adjust the order issues are shown */
 "Date Created" = "Date Created"; /* Sort issues by the date they were created */
 "Date Modified" = "Date Modified"; /* Sort issues by the date they were last changed */
+"Sort Order" = "Sort Order";
 "Newest to Oldest" = "Newest to Oldest"; /* Place newer issues before older issues */
 "Oldest to Newest" = "Oldest to Newest"; /* Place older issues before newer issues */
 
+"Status" = "Status";
 "All" = "All";
 "Open" = "Open";
 "Closed" = "Closed";
@@ -95,6 +97,8 @@
 "Reminder time" = "Reminder time";
 
 /* Fields that let the users enter details about a specific issue */
+"Title" = "Title";
+"Description" = "Description";
 "Enter the issue title here" = "Enter the issue title here";
 "**Modified:** %@" = "**Modified:** %@";
 "**Status:** %@" = "**Status:** %@";
@@ -108,7 +112,7 @@
 /* AWARDS VIEW */
 /***************/
 "Awards" = "Awards";
-
+"Close" = "Close";
 "Locked" = "Locked";
 "Unlocked: %@" = "Unlocked: %@";
 
