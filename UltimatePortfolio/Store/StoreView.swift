@@ -13,6 +13,10 @@ struct StoreView: View {
         case loading, loaded, error
     }
 
+    #if os(visionOS)
+    @Environment(\.purchase) var purchaseAction
+    #endif
+
     @EnvironmentObject var dataController: DataController
     @Environment(\.dismiss) var dismiss
     @State private var loadState = LoadState.loading
@@ -131,7 +135,15 @@ struct StoreView: View {
         }
 
         Task { @MainActor in
+            #if os(visionOS)
+            let result = try await purchaseAction(product)
+
+            if case let .success(validation) = result {
+                try await dataController.finalize(validation.payloadValue)
+            }
+            #else
             try await dataController.purchase(product)
+            #endif
         }
     }
 

@@ -16,6 +16,10 @@ struct UserFilterRow: View {
         NavigationLink(value: filter) {
             Label(filter.name, systemImage: filter.icon)
                 .numberBadge(filter.activeIssuesCount)
+                .accessibilityElement()
+                .accessibilityLabel(filter.name)
+                .accessibilityHint("\(filter.activeIssuesCount) issues")
+                #if !os(watchOS)
                 .contextMenu {
                     Button {
                         rename(filter)
@@ -29,9 +33,7 @@ struct UserFilterRow: View {
                         Label("Delete", systemImage: "trash")
                     }
                 }
-                .accessibilityElement()
-                .accessibilityLabel(filter.name)
-                .accessibilityHint("\(filter.activeIssuesCount) issues")
+                #endif
         }
     }
 }
